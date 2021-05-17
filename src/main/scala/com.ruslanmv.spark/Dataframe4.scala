@@ -1,6 +1,9 @@
 package com.ruslanmv.spark
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
+
+
+//Cache Example
 object Dataframe4 extends App {
 
   val spark:SparkSession = SparkSession.builder()

@@ -1,7 +1,7 @@
 package com.ruslanmv.spark
 import org.apache.spark._
 import org.apache.log4j._
-
+//We read a simple set of data
 object DatasetRead {
   def main(args: Array[String]): Unit = {
 

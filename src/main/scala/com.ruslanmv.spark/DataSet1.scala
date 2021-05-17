@@ -3,8 +3,8 @@ import org.apache.spark.sql.SparkSession
 
 
 
-
-object DataSet {
+//We create Simple Dataset
+object DataSet1 {
 
   def main(args:Array[String]):Unit= {
 

@@ -1,5 +1,8 @@
 package com.ruslanmv.spark
 import org.apache.spark.sql._
+
+
+// We create  a simple dataframe using main
 object DataFrame2 {
   def main(args: Array[String]): Unit = {
     // Use new SparkSession interface in Spark 2.0

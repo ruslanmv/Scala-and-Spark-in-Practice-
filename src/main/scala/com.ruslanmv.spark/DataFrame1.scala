@@ -1,5 +1,8 @@
 package com.ruslanmv.spark
 import org.apache.spark.sql._
+
+
+// We create  a simple dataframe using App trait
 object DataFrame1 extends App {
 
   // Use new SparkSession interface in Spark 2.0
