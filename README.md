@@ -1083,9 +1083,6 @@ object Transformation3 extends App{
 `map()` transformation is used the apply any complex operations like adding a column, updating a column e.t.c, the output of map transformations would always have the same number of records as input
 
 
-
-
-
 #### Repartitions
 
 repartition() Return a dataset with number of partition specified in the argument. This operation reshuffles the RDD randamly, It could either return lesser or more partioned RDD based on the input supplied.
@@ -1256,11 +1253,6 @@ object Action1 extends App {
 }
 
 ```
-
-
-
-
-
 The second example   foreach(f: (T) ⇒ Unit): 
 
 Where unit Iterates all elements in the dataset by applying function f to all elements. Lets create
@@ -1308,14 +1300,7 @@ object Action2 extends App {
   println("Accumulator value:"+longAcc2.value)
 }
 ```
-
-
-
 The last step of our current project is write 
-
-
-
-
 
 #### Save1
 
@@ -1381,7 +1366,6 @@ object Save2 extends App {
 I would like to say that during the developing of our programs, it is  recommendable assign the priority to transformations that cost less network cost as
 
 1. Narrow transformations 
-
 2. Wider  transformations
 3. Applications
 
@@ -1396,11 +1380,5 @@ partitions in a uniform way. Some times should be hard but we can try.
 You can download the project here
 
 https://github.com/ruslanmv/Scala-and-Spark-in-Practice-.git
-
-
-
-
-
-
 
 References:  The example codes of this blog are taken  from   [SparkByExamples.com](SparkByExamples.com")  and  [Udemy ](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/).
