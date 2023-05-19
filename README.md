@@ -1381,4 +1381,4 @@ You can download the project here
 
 https://github.com/ruslanmv/Scala-and-Spark-in-Practice-.git
 
-References:  The example codes of this blog are taken  from   [SparkByExamples.com](SparkByExamples.com")  and  [Udemy ](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/).
+
