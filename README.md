@@ -21,7 +21,7 @@ You can choose either Scala or Python depending what type of software should be 
 
 ### Installation of Spark and Scala on Windows
 
-Let us assume you have already installed property  [Intellij](https://www.jetbrains.com/idea/download/#)  and [winutils](https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/winutils.exe) for Spark on your computer and downloaded [spark](https://spark.apache.org/downloads.html) you can follow this [tutorial](https://dzone.com/articles/working-on-apache-spark-on-windows).
+Let us assume you have already installed property  [Intellij](https://www.jetbrains.com/idea/download/#)  and [winutils](https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/winutils.exe) for Spark on your computer and downloaded [spark](https://spark.apache.org/downloads.html) you can follow this [tutorial](https://ruslanmv.com/blog/How-to-install-Spark-on-Windows).
 
 ### Creation of Project
 
